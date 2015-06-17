@@ -7,8 +7,13 @@ body {
     background-attachment:fixed;
 }
 
+span.up {
+    font-size: 60%;
+    vertical-align:super;
+}
+
 .jumbotron {
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 a {
@@ -21,19 +26,19 @@ a:hover {
 }
 
 hr {
-    border-color: #555;
+    border-color: rgba(0, 0, 0, 0.5);
 }
 
 footer {
-    color: #555;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 footer a {
-    color: #555;
+    color: rgba(0, 0, 0, 0.5);
     text-decoration: underline;
 }
 
 footer a:hover {
-    color: #555;
+    color: rgba(0, 0, 0, 0.5);
     text-decoration: underline;
 }
